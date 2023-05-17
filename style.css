@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(29, 28, 28) !important;
+    color: blanchedalmond !important;
+    font-family: sans-serif;
+    display: flex !important;
+    flex-direction: column!important;
+    justify-content: center;
+    align-items: center;
+}
+
+body.recipe {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+div.description, ul {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: rgb(190, 26, 190)!important;
+    justify-content: center;
+    align-items: center;
+}
+
+ol ul.bowl {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+}
